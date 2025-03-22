@@ -14,21 +14,21 @@ function render() {
 
                 <!-- Skills/Tags -->
                 <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
-                    <span class="badge-custom bg-primary bg-opacity-10 text-primary">Designer</span>
-                    <span class="badge-custom bg-info bg-opacity-10 text-info">Creator</span>
-                    <span class="badge-custom bg-success bg-opacity-10 text-success">Photographer</span>
+                    <span class="badge-custom bg-primary bg-opacity-10 text-primary">Trader</span>
+                    <span class="badge-custom bg-info bg-opacity-10 text-info">Public Relation Officer</span>
+                    <span class="badge-custom bg-success bg-opacity-10 text-success"> Influencer Connector</span>
                 </div>
 
                 <!-- Social Icons -->
                 <div class="d-flex justify-content-center gap-3 mb-4">
-                    <a href="#" class="social-btn btn btn-primary shadow-sm">
+                    <a href="https://www.facebook.com/share/16DbJLSdzW/" class="social-btn btn btn-primary shadow-sm">
                         <i class="bi bi-facebook fs-4"></i>
                     </a>
                     <a href="https://www.instagram.com/itsmilester/" class="social-btn btn btn-danger shadow-sm">
                         <i class="bi bi-instagram fs-4"></i>
                     </a>
-                    <a href="#" class="social-btn btn btn-dark shadow-sm">
-                        <i class="bi bi-twitter-x fs-4"></i>
+                    <a href="https://t.me/itsmilester" class="social-btn btn btn-dark shadow-sm">
+                        <i class="bi bi-telegram fs-4"></i>
                     </a>
                     <a href="mailto:contact@lestercledera.com" class="social-btn btn btn-info shadow-sm">
                         <i class="bi bi-envelope fs-4"></i>
@@ -78,7 +78,7 @@ function render() {
                                                 <p class="mb-0 fw-semibold">Lester Cledera</p>
                                             </div>
                                             <div class="ms-auto">
-                                                <a href="#" class="btn btn-sm btn-light rounded-circle">
+                                                <a href="https://www.facebook.com/share/16DbJLSdzW/" class="btn btn-sm btn-light rounded-circle">
                                                     <i class="bi bi-box-arrow-up-right"></i>
                                                 </a>
                                             </div>
@@ -114,11 +114,11 @@ function render() {
                                     <div class="card-body p-3">
                                         <div class="d-flex align-items-center">
                                             <div class="icon-circle bg-white shadow-sm me-3">
-                                                <i class="bi bi-twitter-x text-dark fs-4"></i>
+                                                <i class="bi bi-telegram text-dark fs-4"></i>
                                             </div>
                                             <div>
-                                                <p class="mb-0 text-muted small">Twitter</p>
-                                                <p class="mb-0 fw-semibold">@josiahdanielle</p>
+                                                <p class="mb-0 text-muted small">Telegram</p>
+                                                <p class="mb-0 fw-semibold">@t.me/itsmilester</p>
                                             </div>
                                             <div class="ms-auto">
                                                 <a href="#" class="btn btn-sm btn-light rounded-circle">
@@ -168,13 +168,17 @@ function render() {
                         <div class="row align-items-center">
                             <div class="col-lg-5 text-center mb-4 mb-lg-0">
                                 <div class="qr-container d-inline-block mb-3">
-                                    <img src="images/image.png" alt="GCash QR Code" class="img-fluid">
+                                    <img src="images/qrcode.png" alt="GCash QR Code" class="img-fluid">
                                 </div>
 
                                 <div class="alert alert-primary bg-primary bg-opacity-10 border-0 rounded-4">
                                     <i class="bi bi-info-circle me-2"></i>
                                     <span>Scan to send money via GCash</span>
                                 </div>
+
+                                <a href="images/qrcode.png" download="GCash_QR_Code.png" class="btn btn-primary mt-2">
+                                    <i class="bi bi-download me-1"></i> Download QR Code
+                                </a>
                             </div>
 
                             <div class="col-lg-7">
@@ -184,7 +188,7 @@ function render() {
 
                                         <div class="info-item">
                                             <span class="info-item-label">GCash Number:</span>
-                                            <span class="text-dark">0930 400 1795</span>
+                                            <span class="text-dark"> 0930 400 1795</span>
                                             <i class="bi bi-clipboard ms-auto copy-button"
                                                 data-clipboard="0930 400 1795"></i>
                                         </div>
